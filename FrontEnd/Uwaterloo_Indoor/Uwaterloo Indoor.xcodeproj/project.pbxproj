@@ -86,7 +86,7 @@
 		EB156BFA1F9D9B3C00280E31 /* Uwaterloo IndoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uwaterloo IndoorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB156BFE1F9D9B3C00280E31 /* Uwaterloo_IndoorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uwaterloo_IndoorUITests.m; sourceTree = "<group>"; };
 		EB156C001F9D9B3C00280E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB156C0C1F9FF61700280E31 /* ApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ApiKey.h; path = ../ApiKey.h; sourceTree = "<group>"; };
+		EB156C0C1F9FF61700280E31 /* ApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiKey.h; sourceTree = "<group>"; };
 		EB4AC9511FA0EE910067B399 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		EB4AC9531FA0EE9E0067B399 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		EB4AC9551FA0EEA80067B399 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -107,8 +107,8 @@
 		EB4AC9791FA186680067B399 /* university_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = university_logo.png; sourceTree = "<group>"; };
 		EBC045521FC33FE0007C74B2 /* ImageNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageNaviController.h; path = "Uwaterloo Indoor/ImageNaviController.h"; sourceTree = "<group>"; };
 		EBC045531FC33FE0007C74B2 /* ImageNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageNaviController.m; path = "Uwaterloo Indoor/ImageNaviController.m"; sourceTree = "<group>"; };
-		EBC045551FC3403D007C74B2 /* FavoritesNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesNaviController.h; sourceTree = "<group>"; };
-		EBC045561FC3403D007C74B2 /* FavoritesNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesNaviController.m; sourceTree = "<group>"; };
+		EBC045551FC3403D007C74B2 /* FavoritesNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoritesNaviController.h; path = "Uwaterloo Indoor/FavoritesNaviController.h"; sourceTree = "<group>"; };
+		EBC045561FC3403D007C74B2 /* FavoritesNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoritesNaviController.m; path = "Uwaterloo Indoor/FavoritesNaviController.m"; sourceTree = "<group>"; };
 		EBC045581FC84C8F007C74B2 /* icons8-star-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-star-50.png"; sourceTree = "<group>"; };
 		EBC0455A1FCD120C007C74B2 /* icons8-export-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-export-filled-25.png"; sourceTree = "<group>"; };
 		EBC0455B1FCD120C007C74B2 /* icons8-import-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-import-25.png"; sourceTree = "<group>"; };
