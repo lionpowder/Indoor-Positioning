@@ -224,10 +224,9 @@
     if (updateCamera) {
         updateCamera = false;
         if (camera == nil) {
-            // Ask Map Kit for a camera that looks at the location from an altitude of 300 meters above the eye coordinates.
+
             camera = [MKMapCamera cameraLookingAtCenterCoordinate:l.coordinate fromEyeCoordinate:l.coordinate eyeAltitude:300];
             
-            // Assign the camera to your map view.
             map.camera = camera;
         } else {
             camera.centerCoordinate = l.coordinate;
@@ -252,7 +251,7 @@
     mapOverlay = [[MapOverlay alloc] initWithFloorPlan:self.floorPlan andRotatedRect:self.rotated];
     [map addOverlay:mapOverlay];
     
-    // Enable to show red circles on floorplan corners
+
 #if 0
     MKCircle *topLeft = [MKCircle circleWithCenterCoordinate:_floorPlan.topLeft radius:5];
     [map addOverlay:topLeft];
@@ -295,8 +294,6 @@
 }
 
 // Loads floor plan meta data from NSCachesDirectory
-// Remember that if you edit the floor plan position
-// from www.indooratlas.com then you must fetch the IAFloorPlan again from server
 - (IAFloorPlan *)loadFloorPlanWithId:(NSString *)key {
     NSDictionary *cache = [NSMutableDictionary dictionaryWithContentsOfFile:[self cacheFile]];
     NSData *data = [cache objectForKey:key];

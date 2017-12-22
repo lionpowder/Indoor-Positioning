@@ -54,14 +54,11 @@
             [rotate setTintColor:[UIColor redColor]];
             break;
             
-            // Although this is called good, don't settle for this level in your app.
-            // Aim to have excellent calibration.
+
         case kIACalibrationGood:
             [rotate setTintColor:[UIColor yellowColor]];
             break;
             
-            // Excellent calibration is often much better than plain good.
-            // In your application logic, always aim to have excellent calibration.
         case kIACalibrationExcellent:
             [rotate setTintColor:[UIColor greenColor]];
             break;
