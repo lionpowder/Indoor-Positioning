@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoProjectWcf", "GeoProjectWcf\GeoProjectWcf.csproj", "{C3175C70-C4B2-40BC-8C00-5C1B83D5CC03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib", "GeoLib\GeoLib.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoEntity", "GeoEntity\GeoEntity.csproj", "{4DE52DA6-0A1D-4AD6-B78C-0E61D957B4D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3175C70-C4B2-40BC-8C00-5C1B83D5CC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3175C70-C4B2-40BC-8C00-5C1B83D5CC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3175C70-C4B2-40BC-8C00-5C1B83D5CC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3175C70-C4B2-40BC-8C00-5C1B83D5CC03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE52DA6-0A1D-4AD6-B78C-0E61D957B4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE52DA6-0A1D-4AD6-B78C-0E61D957B4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE52DA6-0A1D-4AD6-B78C-0E61D957B4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE52DA6-0A1D-4AD6-B78C-0E61D957B4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
