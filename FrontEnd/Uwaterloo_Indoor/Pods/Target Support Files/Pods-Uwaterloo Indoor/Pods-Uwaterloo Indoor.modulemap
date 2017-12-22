@@ -1,0 +1,6 @@
+framework module Pods_Uwaterloo_Indoor {
+  umbrella header "Pods-Uwaterloo Indoor-umbrella.h"
+
+  export *
+  module * { export * }
+}

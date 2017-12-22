@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2099345895ABABBF40FE9AF0 /* Pods_Uwaterloo_IndoorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98ECBE4040479D4925714AF9 /* Pods_Uwaterloo_IndoorUITests.framework */; };
+		562E94562DE70D69E6EA2313 /* Pods_Uwaterloo_Indoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28FBF5399733AC71E8CE2C8 /* Pods_Uwaterloo_Indoor.framework */; };
+		5E7726E90C1AA1B07624EAB2 /* Pods_Uwaterloo_IndoorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D6074AA7887BB08DF4BFF7 /* Pods_Uwaterloo_IndoorTests.framework */; };
+		EB156BDB1F9D9B3C00280E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB156BDA1F9D9B3C00280E31 /* main.m */; };
+		EB156BDE1F9D9B3C00280E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB156BDD1F9D9B3C00280E31 /* AppDelegate.m */; };
+		EB156BE41F9D9B3C00280E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB156BE21F9D9B3C00280E31 /* Main.storyboard */; };
+		EB156BE61F9D9B3C00280E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB156BE51F9D9B3C00280E31 /* Assets.xcassets */; };
+		EB156BE91F9D9B3C00280E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB156BE71F9D9B3C00280E31 /* LaunchScreen.storyboard */; };
+		EB156BF41F9D9B3C00280E31 /* Uwaterloo_IndoorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB156BF31F9D9B3C00280E31 /* Uwaterloo_IndoorTests.m */; };
+		EB156BFF1F9D9B3C00280E31 /* Uwaterloo_IndoorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB156BFE1F9D9B3C00280E31 /* Uwaterloo_IndoorUITests.m */; };
+		EB4AC9521FA0EE910067B399 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC9511FA0EE910067B399 /* OpenGLES.framework */; };
+		EB4AC9541FA0EE9E0067B399 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC9531FA0EE9E0067B399 /* GLKit.framework */; };
+		EB4AC9561FA0EEA80067B399 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC9551FA0EEA80067B399 /* MapKit.framework */; };
+		EB4AC9581FA0EEB40067B399 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC9571FA0EEB40067B399 /* SystemConfiguration.framework */; };
+		EB4AC95A1FA0EEBD0067B399 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC9591FA0EEBD0067B399 /* CoreLocation.framework */; };
+		EB4AC95C1FA0EEC60067B399 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC95B1FA0EEC60067B399 /* CFNetwork.framework */; };
+		EB4AC95E1FA0EED00067B399 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC95D1FA0EED00067B399 /* Security.framework */; };
+		EB4AC9601FA0EED80067B399 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC95F1FA0EED80067B399 /* CoreMotion.framework */; };
+		EB4AC9621FA0EEE10067B399 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC9611FA0EEE10067B399 /* CoreGraphics.framework */; };
+		EB4AC9641FA0EEEB0067B399 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC9631FA0EEEB0067B399 /* UIKit.framework */; };
+		EB4AC9661FA0EEF70067B399 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC9651FA0EEF70067B399 /* Foundation.framework */; };
+		EB4AC96B1FA0F5B90067B399 /* IndoorAtlas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC96A1FA0F5B90067B399 /* IndoorAtlas.framework */; };
+		EB4AC96D1FA0F89B0067B399 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AC96C1FA0F89B0067B399 /* CoreData.framework */; };
+		EB4AC9701FA105160067B399 /* yellow_dot_only.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC96F1FA105160067B399 /* yellow_dot_only.png */; };
+		EB4AC9721FA10D0A0067B399 /* logo_Uwaterloo.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC9711FA10D0A0067B399 /* logo_Uwaterloo.png */; };
+		EB4AC9751FA110CC0067B399 /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC9731FA110CC0067B399 /* icon_120.png */; };
+		EB4AC9761FA110CC0067B399 /* icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC9741FA110CC0067B399 /* icon_180.png */; };
+		EB4AC97A1FA186680067B399 /* university_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC9791FA186680067B399 /* university_logo.png */; };
+		EBC045541FC33FE0007C74B2 /* ImageNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC045531FC33FE0007C74B2 /* ImageNaviController.m */; };
+		EBC045571FC3403D007C74B2 /* FavoritesNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC045561FC3403D007C74B2 /* FavoritesNaviController.m */; };
+		EBC045591FC84C8F007C74B2 /* icons8-star-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC045581FC84C8F007C74B2 /* icons8-star-50.png */; };
+		EBC0455C1FCD120C007C74B2 /* icons8-export-filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC0455A1FCD120C007C74B2 /* icons8-export-filled-25.png */; };
+		EBC0455D1FCD120C007C74B2 /* icons8-import-25.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC0455B1FCD120C007C74B2 /* icons8-import-25.png */; };
+		EBD2E1A71FBC975F0036DA72 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2E1A61FBC975F0036DA72 /* FavoritesViewController.m */; };
+		EBF9A15E1FA0E5C2006283DB /* CalibrationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF9A15D1FA0E5C2006283DB /* CalibrationIndicator.m */; };
+		EBF9A1621FA0E826006283DB /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF9A1601FA0E826006283DB /* ImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB156BF01F9D9B3C00280E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB156BCE1F9D9B3C00280E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB156BD51F9D9B3C00280E31;
+			remoteInfo = "Uwaterloo Indoor";
+		};
+		EB156BFB1F9D9B3C00280E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB156BCE1F9D9B3C00280E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB156BD51F9D9B3C00280E31;
+			remoteInfo = "Uwaterloo Indoor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		492090D7E933898E7B3D155D /* Pods-Uwaterloo IndoorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uwaterloo IndoorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uwaterloo IndoorUITests/Pods-Uwaterloo IndoorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B710E9BA12E54E56CB72A54 /* Pods-Uwaterloo IndoorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uwaterloo IndoorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uwaterloo IndoorUITests/Pods-Uwaterloo IndoorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98ECBE4040479D4925714AF9 /* Pods_Uwaterloo_IndoorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uwaterloo_IndoorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E114E77CFB40E2237448F80 /* Pods-Uwaterloo Indoor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uwaterloo Indoor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uwaterloo Indoor/Pods-Uwaterloo Indoor.debug.xcconfig"; sourceTree = "<group>"; };
+		AB82149D5CDF0504948E5BD6 /* Pods-Uwaterloo IndoorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uwaterloo IndoorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uwaterloo IndoorTests/Pods-Uwaterloo IndoorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C28FBF5399733AC71E8CE2C8 /* Pods_Uwaterloo_Indoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uwaterloo_Indoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF578C993F04F3FA66B214F2 /* Pods-Uwaterloo IndoorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uwaterloo IndoorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uwaterloo IndoorTests/Pods-Uwaterloo IndoorTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4569AB299F6C5A3C413E886 /* Pods-Uwaterloo Indoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uwaterloo Indoor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uwaterloo Indoor/Pods-Uwaterloo Indoor.release.xcconfig"; sourceTree = "<group>"; };
+		E6D6074AA7887BB08DF4BFF7 /* Pods_Uwaterloo_IndoorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uwaterloo_IndoorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB156BD61F9D9B3C00280E31 /* Uwaterloo Indoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uwaterloo Indoor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB156BDA1F9D9B3C00280E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB156BDC1F9D9B3C00280E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB156BDD1F9D9B3C00280E31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB156BE31F9D9B3C00280E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB156BE51F9D9B3C00280E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB156BE81F9D9B3C00280E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB156BEA1F9D9B3C00280E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB156BEF1F9D9B3C00280E31 /* Uwaterloo IndoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uwaterloo IndoorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB156BF31F9D9B3C00280E31 /* Uwaterloo_IndoorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uwaterloo_IndoorTests.m; sourceTree = "<group>"; };
+		EB156BF51F9D9B3C00280E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB156BFA1F9D9B3C00280E31 /* Uwaterloo IndoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uwaterloo IndoorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB156BFE1F9D9B3C00280E31 /* Uwaterloo_IndoorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uwaterloo_IndoorUITests.m; sourceTree = "<group>"; };
+		EB156C001F9D9B3C00280E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB156C0C1F9FF61700280E31 /* ApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ApiKey.h; path = ../ApiKey.h; sourceTree = "<group>"; };
+		EB4AC9511FA0EE910067B399 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EB4AC9531FA0EE9E0067B399 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		EB4AC9551FA0EEA80067B399 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EB4AC9571FA0EEB40067B399 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EB4AC9591FA0EEBD0067B399 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EB4AC95B1FA0EEC60067B399 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EB4AC95D1FA0EED00067B399 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EB4AC95F1FA0EED80067B399 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EB4AC9611FA0EEE10067B399 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB4AC9631FA0EEEB0067B399 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB4AC9651FA0EEF70067B399 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB4AC96A1FA0F5B90067B399 /* IndoorAtlas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorAtlas.framework; path = "Pods/IndoorAtlas/indooratlas-ios-sdk/IndoorAtlas.framework"; sourceTree = "<group>"; };
+		EB4AC96C1FA0F89B0067B399 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB4AC96F1FA105160067B399 /* yellow_dot_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_dot_only.png; sourceTree = "<group>"; };
+		EB4AC9711FA10D0A0067B399 /* logo_Uwaterloo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_Uwaterloo.png; sourceTree = "<group>"; };
+		EB4AC9731FA110CC0067B399 /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
+		EB4AC9741FA110CC0067B399 /* icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_180.png; sourceTree = "<group>"; };
+		EB4AC9791FA186680067B399 /* university_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = university_logo.png; sourceTree = "<group>"; };
+		EBC045521FC33FE0007C74B2 /* ImageNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageNaviController.h; path = "Uwaterloo Indoor/ImageNaviController.h"; sourceTree = "<group>"; };
+		EBC045531FC33FE0007C74B2 /* ImageNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageNaviController.m; path = "Uwaterloo Indoor/ImageNaviController.m"; sourceTree = "<group>"; };
+		EBC045551FC3403D007C74B2 /* FavoritesNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesNaviController.h; sourceTree = "<group>"; };
+		EBC045561FC3403D007C74B2 /* FavoritesNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesNaviController.m; sourceTree = "<group>"; };
+		EBC045581FC84C8F007C74B2 /* icons8-star-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-star-50.png"; sourceTree = "<group>"; };
+		EBC0455A1FCD120C007C74B2 /* icons8-export-filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-export-filled-25.png"; sourceTree = "<group>"; };
+		EBC0455B1FCD120C007C74B2 /* icons8-import-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-import-25.png"; sourceTree = "<group>"; };
+		EBD2E1A51FBC975F0036DA72 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		EBD2E1A61FBC975F0036DA72 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		EBF9A15C1FA0E4E7006283DB /* CalibrationIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalibrationIndicator.h; sourceTree = "<group>"; };
+		EBF9A15D1FA0E5C2006283DB /* CalibrationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationIndicator.m; sourceTree = "<group>"; };
+		EBF9A15F1FA0E826006283DB /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		EBF9A1601FA0E826006283DB /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB156BD31F9D9B3C00280E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC96D1FA0F89B0067B399 /* CoreData.framework in Frameworks */,
+				EB4AC96B1FA0F5B90067B399 /* IndoorAtlas.framework in Frameworks */,
+				EB4AC9661FA0EEF70067B399 /* Foundation.framework in Frameworks */,
+				EB4AC9641FA0EEEB0067B399 /* UIKit.framework in Frameworks */,
+				EB4AC9621FA0EEE10067B399 /* CoreGraphics.framework in Frameworks */,
+				EB4AC9601FA0EED80067B399 /* CoreMotion.framework in Frameworks */,
+				EB4AC95E1FA0EED00067B399 /* Security.framework in Frameworks */,
+				EB4AC95C1FA0EEC60067B399 /* CFNetwork.framework in Frameworks */,
+				EB4AC95A1FA0EEBD0067B399 /* CoreLocation.framework in Frameworks */,
+				EB4AC9581FA0EEB40067B399 /* SystemConfiguration.framework in Frameworks */,
+				EB4AC9561FA0EEA80067B399 /* MapKit.framework in Frameworks */,
+				EB4AC9541FA0EE9E0067B399 /* GLKit.framework in Frameworks */,
+				EB4AC9521FA0EE910067B399 /* OpenGLES.framework in Frameworks */,
+				562E94562DE70D69E6EA2313 /* Pods_Uwaterloo_Indoor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB156BEC1F9D9B3C00280E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7726E90C1AA1B07624EAB2 /* Pods_Uwaterloo_IndoorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB156BF71F9D9B3C00280E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2099345895ABABBF40FE9AF0 /* Pods_Uwaterloo_IndoorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA1370B5F01C15ABF479730E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC96C1FA0F89B0067B399 /* CoreData.framework */,
+				EB4AC96A1FA0F5B90067B399 /* IndoorAtlas.framework */,
+				EB4AC9651FA0EEF70067B399 /* Foundation.framework */,
+				EB4AC9631FA0EEEB0067B399 /* UIKit.framework */,
+				EB4AC9611FA0EEE10067B399 /* CoreGraphics.framework */,
+				EB4AC95F1FA0EED80067B399 /* CoreMotion.framework */,
+				EB4AC95D1FA0EED00067B399 /* Security.framework */,
+				EB4AC95B1FA0EEC60067B399 /* CFNetwork.framework */,
+				EB4AC9591FA0EEBD0067B399 /* CoreLocation.framework */,
+				EB4AC9571FA0EEB40067B399 /* SystemConfiguration.framework */,
+				EB4AC9551FA0EEA80067B399 /* MapKit.framework */,
+				EB4AC9531FA0EE9E0067B399 /* GLKit.framework */,
+				EB4AC9511FA0EE910067B399 /* OpenGLES.framework */,
+				C28FBF5399733AC71E8CE2C8 /* Pods_Uwaterloo_Indoor.framework */,
+				E6D6074AA7887BB08DF4BFF7 /* Pods_Uwaterloo_IndoorTests.framework */,
+				98ECBE4040479D4925714AF9 /* Pods_Uwaterloo_IndoorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8487C28CB650D6EAF15520C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E114E77CFB40E2237448F80 /* Pods-Uwaterloo Indoor.debug.xcconfig */,
+				E4569AB299F6C5A3C413E886 /* Pods-Uwaterloo Indoor.release.xcconfig */,
+				AB82149D5CDF0504948E5BD6 /* Pods-Uwaterloo IndoorTests.debug.xcconfig */,
+				CF578C993F04F3FA66B214F2 /* Pods-Uwaterloo IndoorTests.release.xcconfig */,
+				8B710E9BA12E54E56CB72A54 /* Pods-Uwaterloo IndoorUITests.debug.xcconfig */,
+				492090D7E933898E7B3D155D /* Pods-Uwaterloo IndoorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB156BCD1F9D9B3C00280E31 = {
+			isa = PBXGroup;
+			children = (
+				EBC045511FC33F8D007C74B2 /* Navigation */,
+				EB4AC96E1FA105010067B399 /* Image */,
+				EB156BD81F9D9B3C00280E31 /* Uwaterloo Indoor */,
+				EB156BF21F9D9B3C00280E31 /* Uwaterloo IndoorTests */,
+				EB156BFD1F9D9B3C00280E31 /* Uwaterloo IndoorUITests */,
+				EB156BD71F9D9B3C00280E31 /* Products */,
+				E8487C28CB650D6EAF15520C /* Pods */,
+				BA1370B5F01C15ABF479730E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB156BD71F9D9B3C00280E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB156BD61F9D9B3C00280E31 /* Uwaterloo Indoor.app */,
+				EB156BEF1F9D9B3C00280E31 /* Uwaterloo IndoorTests.xctest */,
+				EB156BFA1F9D9B3C00280E31 /* Uwaterloo IndoorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB156BD81F9D9B3C00280E31 /* Uwaterloo Indoor */ = {
+			isa = PBXGroup;
+			children = (
+				EBF9A15F1FA0E826006283DB /* ImageViewController.h */,
+				EBD2E1A51FBC975F0036DA72 /* FavoritesViewController.h */,
+				EBD2E1A61FBC975F0036DA72 /* FavoritesViewController.m */,
+				EBF9A1601FA0E826006283DB /* ImageViewController.m */,
+				EBF9A15D1FA0E5C2006283DB /* CalibrationIndicator.m */,
+				EBF9A15C1FA0E4E7006283DB /* CalibrationIndicator.h */,
+				EB156BDC1F9D9B3C00280E31 /* AppDelegate.h */,
+				EB156BDD1F9D9B3C00280E31 /* AppDelegate.m */,
+				EB156C0C1F9FF61700280E31 /* ApiKey.h */,
+				EB156BE21F9D9B3C00280E31 /* Main.storyboard */,
+				EB156BE51F9D9B3C00280E31 /* Assets.xcassets */,
+				EB156BE71F9D9B3C00280E31 /* LaunchScreen.storyboard */,
+				EB156BEA1F9D9B3C00280E31 /* Info.plist */,
+				EB156BD91F9D9B3C00280E31 /* Supporting Files */,
+			);
+			path = "Uwaterloo Indoor";
+			sourceTree = "<group>";
+		};
+		EB156BD91F9D9B3C00280E31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB156BDA1F9D9B3C00280E31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB156BF21F9D9B3C00280E31 /* Uwaterloo IndoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB156BF31F9D9B3C00280E31 /* Uwaterloo_IndoorTests.m */,
+				EB156BF51F9D9B3C00280E31 /* Info.plist */,
+			);
+			path = "Uwaterloo IndoorTests";
+			sourceTree = "<group>";
+		};
+		EB156BFD1F9D9B3C00280E31 /* Uwaterloo IndoorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB156BFE1F9D9B3C00280E31 /* Uwaterloo_IndoorUITests.m */,
+				EB156C001F9D9B3C00280E31 /* Info.plist */,
+			);
+			path = "Uwaterloo IndoorUITests";
+			sourceTree = "<group>";
+		};
+		EB4AC96E1FA105010067B399 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC96F1FA105160067B399 /* yellow_dot_only.png */,
+				EB4AC9711FA10D0A0067B399 /* logo_Uwaterloo.png */,
+				EB4AC9791FA186680067B399 /* university_logo.png */,
+				EB4AC9731FA110CC0067B399 /* icon_120.png */,
+				EB4AC9741FA110CC0067B399 /* icon_180.png */,
+				EBC045581FC84C8F007C74B2 /* icons8-star-50.png */,
+				EBC0455A1FCD120C007C74B2 /* icons8-export-filled-25.png */,
+				EBC0455B1FCD120C007C74B2 /* icons8-import-25.png */,
+			);
+			name = Image;
+			path = "Uwaterloo Indoor/Image";
+			sourceTree = "<group>";
+		};
+		EBC045511FC33F8D007C74B2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EBC045521FC33FE0007C74B2 /* ImageNaviController.h */,
+				EBC045531FC33FE0007C74B2 /* ImageNaviController.m */,
+				EBC045551FC3403D007C74B2 /* FavoritesNaviController.h */,
+				EBC045561FC3403D007C74B2 /* FavoritesNaviController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB156BD51F9D9B3C00280E31 /* Uwaterloo Indoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB156C031F9D9B3C00280E31 /* Build configuration list for PBXNativeTarget "Uwaterloo Indoor" */;
+			buildPhases = (
+				DAF17315D62137923BC0CC47 /* [CP] Check Pods Manifest.lock */,
+				EB156BD21F9D9B3C00280E31 /* Sources */,
+				EB156BD31F9D9B3C00280E31 /* Frameworks */,
+				EB156BD41F9D9B3C00280E31 /* Resources */,
+				767453C1A183455BE9432610 /* [CP] Embed Pods Frameworks */,
+				8B9C8D71A1BAA52FA04F7E4A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uwaterloo Indoor";
+			productName = "Uwaterloo Indoor";
+			productReference = EB156BD61F9D9B3C00280E31 /* Uwaterloo Indoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB156BEE1F9D9B3C00280E31 /* Uwaterloo IndoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB156C061F9D9B3C00280E31 /* Build configuration list for PBXNativeTarget "Uwaterloo IndoorTests" */;
+			buildPhases = (
+				690420F9414411819B0CC8FD /* [CP] Check Pods Manifest.lock */,
+				EB156BEB1F9D9B3C00280E31 /* Sources */,
+				EB156BEC1F9D9B3C00280E31 /* Frameworks */,
+				EB156BED1F9D9B3C00280E31 /* Resources */,
+				21D4105C3A175A87D7466EF6 /* [CP] Embed Pods Frameworks */,
+				219D7C02E0A361FDEB7BC06B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB156BF11F9D9B3C00280E31 /* PBXTargetDependency */,
+			);
+			name = "Uwaterloo IndoorTests";
+			productName = "Uwaterloo IndoorTests";
+			productReference = EB156BEF1F9D9B3C00280E31 /* Uwaterloo IndoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB156BF91F9D9B3C00280E31 /* Uwaterloo IndoorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB156C091F9D9B3C00280E31 /* Build configuration list for PBXNativeTarget "Uwaterloo IndoorUITests" */;
+			buildPhases = (
+				201DEC89E32715898D4B98B1 /* [CP] Check Pods Manifest.lock */,
+				EB156BF61F9D9B3C00280E31 /* Sources */,
+				EB156BF71F9D9B3C00280E31 /* Frameworks */,
+				EB156BF81F9D9B3C00280E31 /* Resources */,
+				FF21359127E78572E0AA7478 /* [CP] Embed Pods Frameworks */,
+				C538985B3478ECDECFB0A7F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB156BFC1F9D9B3C00280E31 /* PBXTargetDependency */,
+			);
+			name = "Uwaterloo IndoorUITests";
+			productName = "Uwaterloo IndoorUITests";
+			productReference = EB156BFA1F9D9B3C00280E31 /* Uwaterloo IndoorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB156BCE1F9D9B3C00280E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Owner;
+				TargetAttributes = {
+					EB156BD51F9D9B3C00280E31 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EB156BEE1F9D9B3C00280E31 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 748WVTWQC4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB156BD51F9D9B3C00280E31;
+					};
+					EB156BF91F9D9B3C00280E31 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 748WVTWQC4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB156BD51F9D9B3C00280E31;
+					};
+				};
+			};
+			buildConfigurationList = EB156BD11F9D9B3C00280E31 /* Build configuration list for PBXProject "Uwaterloo Indoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB156BCD1F9D9B3C00280E31;
+			productRefGroup = EB156BD71F9D9B3C00280E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB156BD51F9D9B3C00280E31 /* Uwaterloo Indoor */,
+				EB156BEE1F9D9B3C00280E31 /* Uwaterloo IndoorTests */,
+				EB156BF91F9D9B3C00280E31 /* Uwaterloo IndoorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB156BD41F9D9B3C00280E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC0455D1FCD120C007C74B2 /* icons8-import-25.png in Resources */,
+				EBC045591FC84C8F007C74B2 /* icons8-star-50.png in Resources */,
+				EB156BE91F9D9B3C00280E31 /* LaunchScreen.storyboard in Resources */,
+				EB4AC9701FA105160067B399 /* yellow_dot_only.png in Resources */,
+				EB156BE61F9D9B3C00280E31 /* Assets.xcassets in Resources */,
+				EBC0455C1FCD120C007C74B2 /* icons8-export-filled-25.png in Resources */,
+				EB4AC9721FA10D0A0067B399 /* logo_Uwaterloo.png in Resources */,
+				EB4AC97A1FA186680067B399 /* university_logo.png in Resources */,
+				EB4AC9751FA110CC0067B399 /* icon_120.png in Resources */,
+				EB156BE41F9D9B3C00280E31 /* Main.storyboard in Resources */,
+				EB4AC9761FA110CC0067B399 /* icon_180.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB156BED1F9D9B3C00280E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB156BF81F9D9B3C00280E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		201DEC89E32715898D4B98B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uwaterloo IndoorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		219D7C02E0A361FDEB7BC06B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uwaterloo IndoorTests/Pods-Uwaterloo IndoorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21D4105C3A175A87D7466EF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uwaterloo IndoorTests/Pods-Uwaterloo IndoorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		690420F9414411819B0CC8FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uwaterloo IndoorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		767453C1A183455BE9432610 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Uwaterloo Indoor/Pods-Uwaterloo Indoor-frameworks.sh",
+				"${PODS_ROOT}/IndoorAtlas/indooratlas-ios-sdk/IndoorAtlas.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IndoorAtlas.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uwaterloo Indoor/Pods-Uwaterloo Indoor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9C8D71A1BAA52FA04F7E4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uwaterloo Indoor/Pods-Uwaterloo Indoor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C538985B3478ECDECFB0A7F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uwaterloo IndoorUITests/Pods-Uwaterloo IndoorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF17315D62137923BC0CC47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uwaterloo Indoor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF21359127E78572E0AA7478 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uwaterloo IndoorUITests/Pods-Uwaterloo IndoorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB156BD21F9D9B3C00280E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD2E1A71FBC975F0036DA72 /* FavoritesViewController.m in Sources */,
+				EBC045541FC33FE0007C74B2 /* ImageNaviController.m in Sources */,
+				EB156BDE1F9D9B3C00280E31 /* AppDelegate.m in Sources */,
+				EBC045571FC3403D007C74B2 /* FavoritesNaviController.m in Sources */,
+				EBF9A15E1FA0E5C2006283DB /* CalibrationIndicator.m in Sources */,
+				EBF9A1621FA0E826006283DB /* ImageViewController.m in Sources */,
+				EB156BDB1F9D9B3C00280E31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB156BEB1F9D9B3C00280E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB156BF41F9D9B3C00280E31 /* Uwaterloo_IndoorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB156BF61F9D9B3C00280E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB156BFF1F9D9B3C00280E31 /* Uwaterloo_IndoorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB156BF11F9D9B3C00280E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB156BD51F9D9B3C00280E31 /* Uwaterloo Indoor */;
+			targetProxy = EB156BF01F9D9B3C00280E31 /* PBXContainerItemProxy */;
+		};
+		EB156BFC1F9D9B3C00280E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB156BD51F9D9B3C00280E31 /* Uwaterloo Indoor */;
+			targetProxy = EB156BFB1F9D9B3C00280E31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB156BE21F9D9B3C00280E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB156BE31F9D9B3C00280E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB156BE71F9D9B3C00280E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB156BE81F9D9B3C00280E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB156C011F9D9B3C00280E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB156C021F9D9B3C00280E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB156C041F9D9B3C00280E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E114E77CFB40E2237448F80 /* Pods-Uwaterloo Indoor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/IndoorAtlas/indooratlas-ios-sdk",
+				);
+				INFOPLIST_FILE = "Uwaterloo Indoor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECI.Uwaterloo-Indoor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB156C051F9D9B3C00280E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4569AB299F6C5A3C413E886 /* Pods-Uwaterloo Indoor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/IndoorAtlas/indooratlas-ios-sdk",
+				);
+				INFOPLIST_FILE = "Uwaterloo Indoor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECI.Uwaterloo-Indoor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB156C071F9D9B3C00280E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB82149D5CDF0504948E5BD6 /* Pods-Uwaterloo IndoorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 748WVTWQC4;
+				INFOPLIST_FILE = "Uwaterloo IndoorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECI.Uwaterloo-IndoorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uwaterloo Indoor.app/Uwaterloo Indoor";
+			};
+			name = Debug;
+		};
+		EB156C081F9D9B3C00280E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF578C993F04F3FA66B214F2 /* Pods-Uwaterloo IndoorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 748WVTWQC4;
+				INFOPLIST_FILE = "Uwaterloo IndoorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECI.Uwaterloo-IndoorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uwaterloo Indoor.app/Uwaterloo Indoor";
+			};
+			name = Release;
+		};
+		EB156C0A1F9D9B3C00280E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B710E9BA12E54E56CB72A54 /* Pods-Uwaterloo IndoorUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 748WVTWQC4;
+				INFOPLIST_FILE = "Uwaterloo IndoorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECI.Uwaterloo-IndoorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Uwaterloo Indoor";
+			};
+			name = Debug;
+		};
+		EB156C0B1F9D9B3C00280E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492090D7E933898E7B3D155D /* Pods-Uwaterloo IndoorUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 748WVTWQC4;
+				INFOPLIST_FILE = "Uwaterloo IndoorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECI.Uwaterloo-IndoorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Uwaterloo Indoor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB156BD11F9D9B3C00280E31 /* Build configuration list for PBXProject "Uwaterloo Indoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB156C011F9D9B3C00280E31 /* Debug */,
+				EB156C021F9D9B3C00280E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB156C031F9D9B3C00280E31 /* Build configuration list for PBXNativeTarget "Uwaterloo Indoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB156C041F9D9B3C00280E31 /* Debug */,
+				EB156C051F9D9B3C00280E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB156C061F9D9B3C00280E31 /* Build configuration list for PBXNativeTarget "Uwaterloo IndoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB156C071F9D9B3C00280E31 /* Debug */,
+				EB156C081F9D9B3C00280E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB156C091F9D9B3C00280E31 /* Build configuration list for PBXNativeTarget "Uwaterloo IndoorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB156C0A1F9D9B3C00280E31 /* Debug */,
+				EB156C0B1F9D9B3C00280E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB156BCE1F9D9B3C00280E31 /* Project object */;
+}
