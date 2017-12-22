@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Mqh-Bb-QvS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ImageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="n5Y-Kb-HDM" appends="YES" id="nSQ-PX-hv9"/>
+                            <outletCollection property="gestureRecognizers" destination="RFM-MC-LNt" appends="YES" id="6I6-He-R3L"/>
+                        </connections>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem image="icons8-star-50.png" id="bpj-C2-VFe">
+                            <connections>
+                                <action selector="favorButtonAction:" destination="BYZ-38-t0r" id="nFp-vy-76i"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="9O3-4V-LJp"/>
+                        <barButtonItem image="icons8-import-25.png" id="85i-Tg-qTf">
+                            <connections>
+                                <action selector="loginAction:" destination="BYZ-38-t0r" id="KaG-ZW-h6h"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="T1W-M6-F8b"/>
+                    <connections>
+                        <outlet property="loginButton" destination="85i-Tg-qTf" id="BGB-N0-TeP"/>
+                        <segue destination="brz-Gp-vjc" kind="presentation" identifier="toFavor" id="kXr-S1-F5H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="n5Y-Kb-HDM">
+                    <connections>
+                        <action selector="tapBackground:" destination="BYZ-38-t0r" id="a6I-TK-Brs"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="RFM-MC-LNt">
+                    <connections>
+                        <action selector="longPressed:" destination="BYZ-38-t0r" id="HcC-dC-LtC"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-233" y="26"/>
+        </scene>
+        <!--Favorites Navi Controller-->
+        <scene sceneID="Gky-kF-L7W">
+            <objects>
+                <navigationController id="brz-Gp-vjc" customClass="FavoritesNaviController" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="93K-3f-hD0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gYf-F5-KLK" kind="relationship" relationship="rootViewController" id="k4N-3D-uuN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hrL-uO-9qn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-234" y="770"/>
+        </scene>
+        <!--Favorites View Controller-->
+        <scene sceneID="1Af-aL-Gyw">
+            <objects>
+                <viewController id="gYf-F5-KLK" customClass="FavoritesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0t6-lZ-Ub8"/>
+                        <viewControllerLayoutGuide type="bottom" id="6hD-Zo-2Cy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ilw-IU-bWh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YcI-hy-ykp">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="F9S-pa-Hvj">
+                            <connections>
+                                <action selector="gotoImage:" destination="gYf-F5-KLK" id="zuD-Dy-b1b"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="Mqh-Bb-QvS" kind="presentation" identifier="gotoImage" id="uaF-bA-sNM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nlW-ca-3So" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="673" y="770"/>
+        </scene>
+        <!--Image Navi Controller-->
+        <scene sceneID="f02-YU-Ik0">
+            <objects>
+                <navigationController toolbarHidden="NO" id="Mqh-Bb-QvS" customClass="ImageNaviController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c6E-je-qBQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" id="9V9-TC-NdZ">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QO7-iW-f6D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5kw-Hd-bcB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1034" y="26"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-import-25.png" width="25" height="25"/>
+        <image name="icons8-star-50.png" width="25" height="25"/>
+    </resources>
+</document>
