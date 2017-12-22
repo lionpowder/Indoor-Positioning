@@ -1,0 +1,21 @@
+USE [GeoWcf]
+GO
+
+/****** Object:  Table [dbo].[idCoord]    Script Date: 2017/12/22 下午 03:11:40 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[idCoord](
+	[id] [nvarchar](6) NOT NULL,
+	[coord] [nvarchar](50) NOT NULL,
+ CONSTRAINT [PK_idCoord] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
