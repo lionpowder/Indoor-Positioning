@@ -1,0 +1,12 @@
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Release\GeoEntity.dll.config
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Release\GeoEntity.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Release\GeoEntity.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Release\EntityFramework.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Release\EntityFramework.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\obj\Release\GeoEntity.csprojResolveAssemblyReference.cache
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\obj\Release\GeoEntity.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\obj\Release\GeoEntity.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Release\EntityFramework.SqlServer.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Release\EntityFramework.SqlServer.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Release\zh-Hant\EntityFramework.resources.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Release\zh-Hant\EntityFramework.SqlServer.resources.dll

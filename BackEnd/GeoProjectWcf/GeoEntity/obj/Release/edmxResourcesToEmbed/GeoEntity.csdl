@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GeoWcfModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="GeoWcfEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="idCoord" EntityType="GeoWcfModel.idCoord" />
+    <EntitySet Name="user" EntityType="GeoWcfModel.user" />
+    <EntitySet Name="favorite" EntityType="GeoWcfModel.favorite" />
+  </EntityContainer>
+  <EntityType Name="idCoord">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="coord" />
+    </Key>
+    <Property Type="String" Name="id" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="coord" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Type="String" Name="username" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="psw" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="favorite">
+    <Key>
+      <PropertyRef Name="username" />
+      <PropertyRef Name="locationName" />
+    </Key>
+    <Property Type="String" Name="username" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="locationName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="location" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

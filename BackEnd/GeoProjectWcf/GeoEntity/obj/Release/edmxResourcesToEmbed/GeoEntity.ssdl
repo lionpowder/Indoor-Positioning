@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GeoWcfModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="GeoWcfModelStoreContainer">
+    <EntitySet Name="favorite" EntityType="GeoWcfModel.Store.favorite" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="idCoord" EntityType="GeoWcfModel.Store.idCoord" store:Type="Tables" store:Schema="dbo" store:Name="idCoord">
+      <DefiningQuery>SELECT 
+      [idCoord].[id] AS [id], 
+      [idCoord].[coord] AS [coord]
+      FROM [dbo].[idCoord] AS [idCoord]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="user" EntityType="GeoWcfModel.Store.user" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="favorite">
+    <Key>
+      <PropertyRef Name="username" />
+      <PropertyRef Name="locationName" />
+    </Key>
+    <Property Name="username" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="locationName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="location" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <!--產生期間發現錯誤:
+      警告 6002: 資料表/檢視 'GeoWcf.dbo.idCoord' 未定義主索引鍵。已推斷此索引鍵，並將定義建立成唯讀的資料表/檢視。
+      -->
+  <EntityType Name="idCoord">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="coord" />
+    </Key>
+    <Property Name="id" Type="nvarchar" Nullable="false" MaxLength="6" />
+    <Property Name="coord" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="psw" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+</Schema>

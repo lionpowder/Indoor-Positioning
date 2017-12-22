@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GeoWcfModelStoreContainer" CdmEntityContainer="GeoWcfEntities">
+    <EntitySetMapping Name="idCoord">
+      <EntityTypeMapping TypeName="GeoWcfModel.idCoord">
+        <MappingFragment StoreEntitySet="idCoord">
+          <ScalarProperty Name="coord" ColumnName="coord" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user">
+      <EntityTypeMapping TypeName="GeoWcfModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="psw" ColumnName="psw" />
+          <ScalarProperty Name="username" ColumnName="username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="favorite">
+      <EntityTypeMapping TypeName="GeoWcfModel.favorite">
+        <MappingFragment StoreEntitySet="favorite">
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="locationName" ColumnName="locationName" />
+          <ScalarProperty Name="username" ColumnName="username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

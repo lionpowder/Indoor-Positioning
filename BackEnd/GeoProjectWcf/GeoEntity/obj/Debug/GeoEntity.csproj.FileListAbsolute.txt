@@ -1,0 +1,35 @@
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Debug\GeoEntity.dll.config
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Debug\GeoEntity.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Debug\GeoEntity.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Debug\EntityFramework.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Debug\EntityFramework.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\obj\Debug\GeoEntity.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\obj\Debug\GeoEntity.pdb
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\obj\Debug\GeoEntity.csprojResolveAssemblyReference.cache
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoEntity\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\GeoEntity.dll.config
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\GeoEntity.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\GeoEntity.pdb
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\Common.Logging.Core.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\Common.Logging.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\Common.Logging.Log4Net1213.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\EntityFramework.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\EntityFramework.SqlServer.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\log4net.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\Common.Logging.pdb
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\Common.Logging.xml
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\Common.Logging.Core.pdb
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\Common.Logging.Core.xml
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\Common.Logging.Log4Net1213.pdb
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\Common.Logging.Log4Net1213.xml
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\EntityFramework.xml
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\EntityFramework.SqlServer.xml
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\log4net.xml
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\zh-Hant\EntityFramework.resources.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\obj\Debug\GeoEntity.csprojResolveAssemblyReference.cache
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\obj\Debug\GeoEntity.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoEntity\obj\Debug\GeoEntity.pdb

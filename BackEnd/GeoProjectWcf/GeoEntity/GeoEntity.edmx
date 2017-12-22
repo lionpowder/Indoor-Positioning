@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="GeoWcfModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="GeoWcfModelStoreContainer">
+          <EntitySet Name="favorite" EntityType="GeoWcfModel.Store.favorite" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="idCoord" EntityType="GeoWcfModel.Store.idCoord" store:Type="Tables" store:Schema="dbo" store:Name="idCoord">
+            <DefiningQuery>SELECT 
+      [idCoord].[id] AS [id], 
+      [idCoord].[coord] AS [coord]
+      FROM [dbo].[idCoord] AS [idCoord]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="user" EntityType="GeoWcfModel.Store.user" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="favorite">
+          <Key>
+            <PropertyRef Name="username" />
+            <PropertyRef Name="locationName" />
+          </Key>
+          <Property Name="username" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="locationName" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="location" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <!--產生期間發現錯誤:
+      警告 6002: 資料表/檢視 'GeoWcf.dbo.idCoord' 未定義主索引鍵。已推斷此索引鍵，並將定義建立成唯讀的資料表/檢視。
+      -->
+        <EntityType Name="idCoord">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="coord" />
+          </Key>
+          <Property Name="id" Type="nvarchar" Nullable="false" MaxLength="6" />
+          <Property Name="coord" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="psw" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="GeoWcfModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="GeoWcfEntities" p1:LazyLoadingEnabled="true" >
+          <EntitySet Name="idCoord" EntityType="GeoWcfModel.idCoord" />
+          <EntitySet Name="user" EntityType="GeoWcfModel.user" />
+          <EntitySet Name="favorite" EntityType="GeoWcfModel.favorite" />
+        </EntityContainer>
+        <EntityType Name="idCoord">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="coord" />
+          </Key>
+          <Property Type="String" Name="id" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="coord" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Type="String" Name="username" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="psw" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="favorite">
+          <Key>
+            <PropertyRef Name="username" />
+            <PropertyRef Name="locationName" />
+          </Key>
+          <Property Type="String" Name="username" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="locationName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="location" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="GeoWcfModelStoreContainer" CdmEntityContainer="GeoWcfEntities" >
+          <EntitySetMapping Name="idCoord">
+            <EntityTypeMapping TypeName="GeoWcfModel.idCoord">
+              <MappingFragment StoreEntitySet="idCoord">
+                <ScalarProperty Name="coord" ColumnName="coord" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user">
+            <EntityTypeMapping TypeName="GeoWcfModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="psw" ColumnName="psw" />
+                <ScalarProperty Name="username" ColumnName="username" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="favorite">
+            <EntityTypeMapping TypeName="GeoWcfModel.favorite">
+              <MappingFragment StoreEntitySet="favorite">
+                <ScalarProperty Name="location" ColumnName="location" />
+                <ScalarProperty Name="locationName" ColumnName="locationName" />
+                <ScalarProperty Name="username" ColumnName="username" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="無" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
