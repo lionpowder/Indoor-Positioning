@@ -1,0 +1,32 @@
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\GeoLib.dll.config
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\GeoLib.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\GeoLib.pdb
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Common.Logging.Core.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Common.Logging.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Common.Logging.pdb
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Common.Logging.xml
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Common.Logging.Core.pdb
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Common.Logging.Core.xml
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\obj\Release\GeoLib.csprojResolveAssemblyReference.cache
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\obj\Release\GeoLib.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoLib\obj\Release\GeoLib.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\GeoLib.dll.config
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\GeoLib.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\GeoLib.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Common.Logging.Core.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Common.Logging.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Common.Logging.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Common.Logging.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Common.Logging.Core.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Common.Logging.Core.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\obj\Release\GeoLib.csprojResolveAssemblyReference.cache
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\obj\Release\GeoLib.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoLib\obj\Release\GeoLib.pdb
