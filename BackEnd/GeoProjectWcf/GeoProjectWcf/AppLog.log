@@ -1,0 +1,25 @@
+11/16/2017 11:56:41.7474803 Severity: Information Category: AppLog Priority: 5 EventId: 1 
+Message: TESTING:test 
+Extended Properties: 
+Execution Class: - GeoProjectWcf.UserInfo
+
+11/16/2017 14:09:09.0024271 Severity: Information Category: AppLog Priority: 5 EventId: 1 
+Message: TESTING:TEst 
+Extended Properties: 
+Execution Class: - GeoProjectWcf.UserInfo
+
+11/16/2017 14:11:48.6931041 Severity: Information Category: AppLog Priority: 5 EventId: 1 
+Message: TESTING:stest2 
+Extended Properties: 
+Execution Class: - GeoProjectWcf.UserInfo
+
+11/16/2017 17:42:36.5546493 Severity: Information Category: AppLog Priority: 5 EventId: 1 
+Message: TESTING:test 
+Extended Properties: 
+Execution Class: - GeoProjectWcf.UserInfo
+
+11/16/2017 17:59:23.7965258 Severity: Information Category: AppLog Priority: 5 EventId: 1 
+Message: TESTING: Without Parameter 
+Extended Properties: 
+Execution Class: - GeoProjectWcf.UserInfo
+

@@ -1,0 +1,48 @@
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\GeoProjectWcf.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\GeoProjectWcf.pdb
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\EntityFramework.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\EntityFramework.SqlServer.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\GeoEntity.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\GeoEntity.pdb
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\EntityFramework.xml
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\EntityFramework.SqlServer.xml
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\obj\Release\GeoProjectWcf.csprojResolveAssemblyReference.cache
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\obj\Release\GeoProjectWcf.dll
+d:\hannah\documents\visual studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\obj\Release\GeoProjectWcf.pdb
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Common.Logging.Core.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Common.Logging.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\GeoLib.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\GeoLib.pdb
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Common.Logging.pdb
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Common.Logging.xml
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Common.Logging.Core.pdb
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Common.Logging.Core.xml
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Hannah\Documents\Visual Studio 2012\Projects\GeoProjectWcf\GeoProjectWcf\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\GeoProjectWcf.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\GeoProjectWcf.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Common.Logging.Core.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Common.Logging.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\EntityFramework.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\GeoEntity.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\GeoLib.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\GeoEntity.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\GeoLib.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Common.Logging.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Common.Logging.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Common.Logging.Core.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Common.Logging.Core.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\EntityFramework.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\obj\Release\GeoProjectWcf.csprojResolveAssemblyReference.cache
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\obj\Release\GeoProjectWcf.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\obj\Release\GeoProjectWcf.pdb
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\EntityFramework.SqlServer.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\EntityFramework.SqlServer.xml
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\zh-Hant\EntityFramework.resources.dll
+D:\Hannah\Documents\visual studio 2012\Projects\GeoProjectWcf - 複製 (2)\GeoProjectWcf\bin\zh-Hant\EntityFramework.SqlServer.resources.dll

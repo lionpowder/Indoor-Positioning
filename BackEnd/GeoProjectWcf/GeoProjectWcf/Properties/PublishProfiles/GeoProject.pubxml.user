@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+此檔案是由您 Web 專案的發行/封裝處理程序所使用。您可以編輯此 MSBuild 檔案，
+以自訂此處理程序的行為。若要深入了解，請造訪 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Hannah\Documents\Visual Studio 2012\Deploy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>11/13/2017 20:44:36</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>11/13/2017 20:44:36</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/27/2017 02:07:41</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>11/27/2017 02:07:41</publishTime>
+    </File>
+    <File Include="bin/GeoEntity.dll">
+      <publishTime>11/27/2017 21:28:06</publishTime>
+    </File>
+    <File Include="bin/GeoLib.dll">
+      <publishTime>11/16/2017 13:59:35</publishTime>
+    </File>
+    <File Include="bin/GeoProjectWcf.dll">
+      <publishTime>11/27/2017 21:28:07</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>11/13/2017 21:26:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll">
+      <publishTime>11/13/2017 21:26:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/EntityFramework.resources.dll">
+      <publishTime>11/27/2017 02:07:47</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/EntityFramework.SqlServer.resources.dll">
+      <publishTime>11/27/2017 02:07:47</publishTime>
+    </File>
+    <File Include="docs/MySqlCommand.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlCommandBuilder.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlConnection.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlConnectionStringBuilder.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlDataAdapter.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlDataReader.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlException.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlHelper.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlParameter.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlParameterCollection.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="docs/MySqlTransaction.xml">
+      <publishTime>11/16/2017 14:00:29</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/27/2017 02:07:48</publishTime>
+    </File>
+    <File Include="UserInfo.svc">
+      <publishTime>11/10/2017 14:04:21</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/27/2017 19:13:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
